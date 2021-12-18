@@ -20,7 +20,7 @@ class Viga {
 			
 			var vigaPos=this.body.position;		
 			push()
-			translate(vigaPos.x, vigaPos.y+2);
+			translate(vigaPos.x, vigaPos.y-100);
 			rectMode(CENTER)
 			fill("red")
 			imageMode(CENTER);

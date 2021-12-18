@@ -20,10 +20,10 @@ function setup() {
 
   ground = new Ground(600, 800, 2500, 20);
 
-  viga = new Viga(400,10,300,20);
+  viga = new Viga(400,800,300,250);
   
 
-  rope = new Rope(viga.body, { x: 500, y: 100 });
+  rope = new Rope(viga.body, { x: 500, y: 50 });
   
 
   marble1 = new Marble(400,0,20,20);
